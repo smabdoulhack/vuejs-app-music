@@ -1,0 +1,13 @@
+<script setup>
+import Header from "./components/header/Header.vue";
+</script>
+
+<template>
+  <Header />
+  <RouterView />
+</template>
+
+<style scoped>
+@media (min-width: 1024px) {
+}
+</style>
